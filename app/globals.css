@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+/* Modo oscuro por clase (.dark en <html>), guardado en localStorage "hh-theme". */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Tokens del README — modo claro */
+:root {
+  --hh-bg: #fbfbfc;
+  --hh-header: rgba(251, 251, 252, 0.94);
+  --hh-head: #1f3550;
+  --hh-text: #14233a;
+  --hh-muted: #4b5a6e;
+  --hh-soft: #5f6c7d;
+  --hh-band: #1f3550;
+  --hh-card: #ffffff;
+  --hh-tint: #f1f4f8;
+  --hh-tint2: #e6ebf2;
+  --hh-hover: #eef2f7;
+  --hh-line: #e6eaf0;
+  --hh-line-header: #edf0f4;
+  --hh-line-input: #dfe4eb;
+  --hh-line2: #c8d0db;
+  --hh-line2-chip: #d5dce5;
+  --hh-ph1: #eef1f5;
+  --hh-ph2: #e5e9ef;
+  --hh-otext: #c95b0b;
+  color-scheme: light;
+}
+
+/* Tokens del README — modo oscuro */
+.dark {
+  --hh-bg: #0e1726;
+  --hh-header: rgba(14, 23, 38, 0.92);
+  --hh-head: #f1f4f9;
+  --hh-text: #e3e8ef;
+  --hh-muted: #aeb9c7;
+  --hh-soft: #8f9bab;
+  --hh-band: #1b2c47;
+  --hh-card: #142034;
+  --hh-tint: #172338;
+  --hh-tint2: #1e2c43;
+  --hh-hover: #1c2a40;
+  --hh-line: #26354d;
+  --hh-line-header: #26354d;
+  --hh-line-input: #26354d;
+  --hh-line2: #33445f;
+  --hh-line2-chip: #33445f;
+  --hh-ph1: #1a263a;
+  --hh-ph2: #162133;
+  --hh-otext: #f39a55;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --font-sans: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+
+  --color-bg: var(--hh-bg);
+  --color-header: var(--hh-header);
+  --color-head: var(--hh-head);
+  --color-text: var(--hh-text);
+  --color-muted: var(--hh-muted);
+  --color-soft: var(--hh-soft);
+  --color-band: var(--hh-band);
+  --color-card: var(--hh-card);
+  --color-tint: var(--hh-tint);
+  --color-tint2: var(--hh-tint2);
+  --color-hover: var(--hh-hover);
+  --color-line: var(--hh-line);
+  --color-line-header: var(--hh-line-header);
+  --color-line-input: var(--hh-line-input);
+  --color-line2: var(--hh-line2);
+  --color-line2-chip: var(--hh-line2-chip);
+  --color-ph1: var(--hh-ph1);
+  --color-ph2: var(--hh-ph2);
+  --color-otext: var(--hh-otext);
+
+  /* Iguales en ambos modos */
+  --color-orange: #e2690f;
+  --color-orange-hover: #c95b0b;
+  --color-band-muted: #c9d3e0;
+  --color-band-hover: #2a4466;
+
+  --shadow-float: 0 10px 28px rgba(20, 35, 58, 0.25);
+}
+
+body {
+  margin: 0;
+  background: var(--hh-bg);
+  color: var(--hh-text);
+}
+
+/* Placeholder rayado (135°, 10px) detrás de las fotos */
+.ph-stripes {
+  background: repeating-linear-gradient(
+    135deg,
+    var(--hh-ph1) 0 10px,
+    var(--hh-ph2) 10px 20px
+  );
+}
+
+button,
+select {
+  cursor: pointer;
+}

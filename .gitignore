@@ -1,0 +1,20 @@
+# Dependencias y build
+node_modules
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+
+# Secretos
+.env*
+*.pem
+*.key
+
+# Archivos de diseño (no se publican)
+design/
+design_handoff_hhfamilytravel/
+*.zip
+
+# Sistema
+.DS_Store
+npm-debug.log*
