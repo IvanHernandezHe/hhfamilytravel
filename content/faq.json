@@ -1,0 +1,34 @@
+[
+  {
+    "q": "¿Cuánto cuesta planear el viaje con ustedes?",
+    "a": "La asesoría y la cotización no tienen costo. Te enviamos opciones con el precio total para que decidas con calma."
+  },
+  {
+    "q": "¿Cómo puedo pagar?",
+    "a": "Aceptamos tarjeta de crédito y débito, transferencia y pagos en parcialidades según el proveedor. Pregúntanos por meses sin intereses."
+  },
+  {
+    "q": "¿Con cuánta anticipación debo reservar?",
+    "a": "Para verano, Navidad y Semana Santa recomendamos de 4 a 8 meses antes. Para otras fechas, de 2 a 3 meses."
+  },
+  {
+    "q": "¿Qué documentos necesitan los niños?",
+    "a": "Depende del destino. Te enviamos la lista exacta antes de reservar: pasaporte, visas, permisos de salida de menores, etc."
+  },
+  {
+    "q": "¿Qué pasa si necesito cancelar o cambiar fechas?",
+    "a": "Cada proveedor tiene sus propias políticas. Te las explicamos antes de pagar y te ayudamos a gestionar cualquier cambio."
+  },
+  {
+    "q": "¿Me acompañan durante el viaje?",
+    "a": "Sí. Tienes asistencia por WhatsApp antes, durante y después del viaje."
+  },
+  {
+    "q": "¿Recomiendan seguro de viaje?",
+    "a": "Sí, siempre. Te cotizamos opciones con cobertura médica y de cancelación."
+  },
+  {
+    "q": "¿Pueden organizar viajes para grupos o familias grandes?",
+    "a": "Sí. Coordinamos viajes con abuelos, primos y grupos de varias familias."
+  }
+]

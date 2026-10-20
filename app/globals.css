@@ -1,104 +1,61 @@
-@import "tailwindcss";
-
-/* Modo oscuro por clase (.dark en <html>), guardado en localStorage "hh-theme". */
+/* Tailwind sin preflight: el diseño usa la base del prototipo (abajo) y no debe cambiar. */
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+@import "./hover.css";
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* Tokens del README — modo claro */
+/* ── Base del prototipo (sistema de diseño + estilos de la página) ── */
 :root {
-  --hh-bg: #fbfbfc;
-  --hh-header: rgba(251, 251, 252, 0.94);
-  --hh-head: #1f3550;
-  --hh-text: #14233a;
-  --hh-muted: #4b5a6e;
-  --hh-soft: #5f6c7d;
-  --hh-band: #1f3550;
-  --hh-card: #ffffff;
-  --hh-tint: #f1f4f8;
-  --hh-tint2: #e6ebf2;
-  --hh-hover: #eef2f7;
-  --hh-line: #e6eaf0;
-  --hh-line-header: #edf0f4;
-  --hh-line-input: #dfe4eb;
-  --hh-line2: #c8d0db;
-  --hh-line2-chip: #d5dce5;
-  --hh-ph1: #eef1f5;
-  --hh-ph2: #e5e9ef;
-  --hh-otext: #c95b0b;
-  color-scheme: light;
+  --font-body: var(--font-figtree), "Figtree", system-ui, sans-serif;
+  /* Medidas que en el prototipo dependían del ancho (móvil < 1080px). */
+  --hh-footpad: 24px;
+  --hh-favleft: 24px;
+  --hh-favbottom: 24px;
+  --c-asidepos: sticky;
+}
+@media (max-width: 1079.98px) {
+  :root { --hh-footpad: 104px; --hh-favleft: 16px; --hh-favbottom: 96px; }
+}
+@media (max-width: 899.98px) {
+  :root { --c-asidepos: relative; }
 }
 
-/* Tokens del README — modo oscuro */
-.dark {
-  --hh-bg: #0e1726;
-  --hh-header: rgba(14, 23, 38, 0.92);
-  --hh-head: #f1f4f9;
-  --hh-text: #e3e8ef;
-  --hh-muted: #aeb9c7;
-  --hh-soft: #8f9bab;
-  --hh-band: #1b2c47;
-  --hh-card: #142034;
-  --hh-tint: #172338;
-  --hh-tint2: #1e2c43;
-  --hh-hover: #1c2a40;
-  --hh-line: #26354d;
-  --hh-line-header: #26354d;
-  --hh-line-input: #26354d;
-  --hh-line2: #33445f;
-  --hh-line2-chip: #33445f;
-  --hh-ph1: #1a263a;
-  --hh-ph2: #162133;
-  --hh-otext: #f39a55;
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; font-size: 15px; line-height: 1.55; font-weight: 400; background: #fbfbfc; color: #14233a; font-family: var(--font-body); }
+h1, h2, h3, h4, h5, h6 { font-weight: 400; line-height: 1.12; letter-spacing: -0.015em; margin: 0 0 8.8px; }
+h1 { font-size: 42px; } h2 { font-size: 32px; } h3 { font-size: 25px; } h4 { font-size: 20px; } h5 { font-size: 16px; }
+h6 { font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; }
+p { margin: 0 0 13.2px; }
+a { color: #1f3550; text-underline-offset: 3px; }
+a:hover { color: #e2690f; }
+img { display: block; max-width: 100%; }
+figure { margin: 0; }
+button, input, select, textarea { font: inherit; }
+input[type="range"] { accent-color: #e2690f; }
+:focus { outline: none; }
+:focus-visible { outline: 3px solid #e2690f; outline-offset: 2px; }
+::selection { background: color-mix(in srgb, #e2690f 30%, transparent); }
+
+/* Bloques que solo existen en escritorio o en móvil (antes: notMobile / isMobile). */
+.hh-only-desk { display: contents; }
+.hh-only-mobile { display: none; }
+@media (max-width: 1079.98px) {
+  .hh-only-desk { display: none; }
+  .hh-only-mobile { display: contents; }
+}
+
+/* ── Modo oscuro (darkVars del prototipo) ── */
+html.dark {
   color-scheme: dark;
+  --hh-logo-light: none; --hh-logo-dark: block;
+  --hh-bg: #0e1726; --hh-header: rgba(14,23,38,.92); --hh-band: #1b2c47; --hh-head: #f1f4f9; --hh-text: #e3e8ef;
+  --hh-muted: #aeb9c7; --hh-soft: #8f9bab; --hh-ph1: #1a263a; --hh-ph2: #162133; --hh-tint: #172338; --hh-tint2: #1e2c43;
+  --hh-line: #26354d; --hh-line2: #33445f; --hh-card: #142034; --hh-otext: #f39a55; --hh-hover: #1c2a40; --hh-blend: normal;
+  --hh-logo-bg: #fff; --hh-logo-pad: 4px 10px;
+  /* Cotizador */
+  --c-bg: #0e1726; --c-hdr: rgba(14,23,38,.92); --c-card: #142034; --c-head: #f1f4f9; --c-head2: #dfe6ef; --c-muted: #aeb9c7;
+  --c-soft: #8f9bab; --c-text: #e3e8ef; --c-line: #2b3a52; --c-line2: #3a4b66; --c-tint: #1c2a40;
 }
-
-@theme inline {
-  --font-sans: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
-
-  --color-bg: var(--hh-bg);
-  --color-header: var(--hh-header);
-  --color-head: var(--hh-head);
-  --color-text: var(--hh-text);
-  --color-muted: var(--hh-muted);
-  --color-soft: var(--hh-soft);
-  --color-band: var(--hh-band);
-  --color-card: var(--hh-card);
-  --color-tint: var(--hh-tint);
-  --color-tint2: var(--hh-tint2);
-  --color-hover: var(--hh-hover);
-  --color-line: var(--hh-line);
-  --color-line-header: var(--hh-line-header);
-  --color-line-input: var(--hh-line-input);
-  --color-line2: var(--hh-line2);
-  --color-line2-chip: var(--hh-line2-chip);
-  --color-ph1: var(--hh-ph1);
-  --color-ph2: var(--hh-ph2);
-  --color-otext: var(--hh-otext);
-
-  /* Iguales en ambos modos */
-  --color-orange: #e2690f;
-  --color-orange-hover: #c95b0b;
-  --color-band-muted: #c9d3e0;
-  --color-band-hover: #2a4466;
-
-  --shadow-float: 0 10px 28px rgba(20, 35, 58, 0.25);
-}
-
-body {
-  margin: 0;
-  background: var(--hh-bg);
-  color: var(--hh-text);
-}
-
-/* Placeholder rayado (135°, 10px) detrás de las fotos */
-.ph-stripes {
-  background: repeating-linear-gradient(
-    135deg,
-    var(--hh-ph1) 0 10px,
-    var(--hh-ph2) 10px 20px
-  );
-}
-
-button,
-select {
-  cursor: pointer;
-}
+html.dark body { background: #0e1726; color: #e3e8ef; }

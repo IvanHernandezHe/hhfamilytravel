@@ -1,0 +1,6 @@
+import type { MetadataRoute } from "next";
+import { config } from "@/content/config";
+
+export default function robots(): MetadataRoute.Robots {
+  return { rules: [{ userAgent: "*", allow: "/", disallow: ["/api/", "/mi-viaje"] }], sitemap: `${config.url}/sitemap.xml` };
+}

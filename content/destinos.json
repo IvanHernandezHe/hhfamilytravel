@@ -1,0 +1,314 @@
+[
+  {
+    "slug": "orlando",
+    "name": "Orlando",
+    "epoca": "Feb–may y sep–nov",
+    "edades": "3 a 12 años",
+    "dias": "6 a 9 noches",
+    "docs": "Pasaporte y visa de EE. UU.",
+    "tips": [
+      "Planea un parque por día y deja un día libre a la mitad.",
+      "Llega temprano: las primeras dos horas tienen menos filas.",
+      "Elige hotel con alberca para descansar al mediodía."
+    ],
+    "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?w=900&q=70&auto=format&fit=crop",
+    "region": "Florida, Estados Unidos",
+    "type": "Parques",
+    "meses": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      9,
+      10
+    ],
+    "quizTags": [
+      "ninos",
+      "teens",
+      "medio",
+      "comodo",
+      "abuelos"
+    ],
+    "coords": [
+      28.54,
+      -81.38
+    ]
+  },
+  {
+    "slug": "california",
+    "name": "California",
+    "epoca": "Mar–may y sep–nov",
+    "edades": "3 a 14 años",
+    "dias": "6 a 8 noches",
+    "docs": "Pasaporte y visa de EE. UU.",
+    "tips": [
+      "Combina Disneyland con playa en Santa Mónica o San Diego.",
+      "Renta auto: las distancias son largas.",
+      "Reserva con anticipación en vacaciones de verano."
+    ],
+    "img": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=900&q=70&auto=format&fit=crop",
+    "region": "Estados Unidos",
+    "type": "Parques",
+    "meses": [
+      2,
+      3,
+      4,
+      8,
+      9,
+      10
+    ],
+    "quizTags": [
+      "ninos",
+      "teens",
+      "medio",
+      "comodo",
+      "especial"
+    ],
+    "coords": [
+      33.81,
+      -117.92
+    ]
+  },
+  {
+    "slug": "cancun-y-riviera-maya",
+    "name": "Cancún y Riviera Maya",
+    "epoca": "Dic–abr",
+    "edades": "Todas las edades, ideal con bebés",
+    "dias": "4 a 7 noches",
+    "docs": "Identificación; acta de nacimiento para menores",
+    "tips": [
+      "Escoge resort con club de niños y playa sin oleaje.",
+      "Los parques ecológicos se disfrutan mejor desde 5 años.",
+      "Evita la temporada de huracanes (ago–oct) si buscas tranquilidad."
+    ],
+    "img": "https://images.unsplash.com/photo-1510097467424-192d713fd8b2?w=900&q=70&auto=format&fit=crop",
+    "region": "México",
+    "type": "Playa",
+    "meses": [
+      11,
+      0,
+      1,
+      2,
+      3
+    ],
+    "quizTags": [
+      "bebes",
+      "ninos",
+      "abuelos",
+      "corto",
+      "medio",
+      "esencial",
+      "comodo"
+    ],
+    "coords": [
+      21.16,
+      -86.85
+    ]
+  },
+  {
+    "slug": "punta-cana",
+    "name": "Punta Cana",
+    "epoca": "Dic–abr",
+    "edades": "Todas las edades",
+    "dias": "5 a 7 noches",
+    "docs": "Pasaporte vigente",
+    "tips": [
+      "Los resorts todo incluido hacen el viaje muy sencillo con niños.",
+      "Pide habitación familiar o conectada.",
+      "Lleva bloqueador biodegradable y gorra."
+    ],
+    "img": "https://images.unsplash.com/photo-1552074284-5e88ef1aef18?w=900&q=70&auto=format&fit=crop",
+    "region": "República Dominicana",
+    "type": "Playa",
+    "meses": [
+      11,
+      0,
+      1,
+      2,
+      3
+    ],
+    "quizTags": [
+      "bebes",
+      "ninos",
+      "abuelos",
+      "corto",
+      "medio",
+      "comodo"
+    ],
+    "coords": [
+      18.58,
+      -68.4
+    ]
+  },
+  {
+    "slug": "caribe-en-crucero",
+    "name": "Caribe en crucero",
+    "epoca": "Nov–abr",
+    "edades": "Todas las edades",
+    "dias": "5 a 7 noches",
+    "docs": "Pasaporte y visa de EE. UU. (salida desde Miami)",
+    "tips": [
+      "Reserva camarotes conectados si viajan más de cuatro.",
+      "Las excursiones familiares se agotan; apártalas antes.",
+      "Llega a Miami un día antes del embarque."
+    ],
+    "img": "https://images.unsplash.com/photo-1548574505-5e239809ee19?w=900&q=70&auto=format&fit=crop",
+    "region": "Salidas desde Miami",
+    "type": "Cruceros",
+    "meses": [
+      10,
+      11,
+      0,
+      1,
+      2,
+      3
+    ],
+    "quizTags": [
+      "bebes",
+      "ninos",
+      "abuelos",
+      "corto",
+      "medio",
+      "comodo"
+    ],
+    "coords": [
+      25.76,
+      -80.19
+    ]
+  },
+  {
+    "slug": "alaska-en-crucero",
+    "name": "Alaska en crucero",
+    "epoca": "May–sep",
+    "edades": "Desde 6 años",
+    "dias": "7 noches",
+    "docs": "Pasaporte y visa de EE. UU.",
+    "tips": [
+      "Lleva ropa en capas: el clima cambia durante el día.",
+      "Elige camarote con balcón para ver glaciares.",
+      "Binoculares para ballenas y osos."
+    ],
+    "img": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=900&q=70&auto=format&fit=crop",
+    "region": "Salidas desde Seattle",
+    "type": "Cruceros",
+    "meses": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "quizTags": [
+      "teens",
+      "abuelos",
+      "medio",
+      "especial"
+    ],
+    "coords": [
+      58.3,
+      -134.42
+    ]
+  },
+  {
+    "slug": "madrid-y-barcelona",
+    "name": "Madrid y Barcelona",
+    "epoca": "Abr–jun y sep–oct",
+    "edades": "Desde 6 años",
+    "dias": "9 a 12 noches",
+    "docs": "Pasaporte vigente; revisa requisitos de ingreso a la Unión Europea",
+    "tips": [
+      "Hospédate céntrico para caminar y descansar entre visitas.",
+      "Viaja entre ciudades en tren rápido.",
+      "Compra entradas de museos y Sagrada Familia con anticipación."
+    ],
+    "img": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=900&q=70&auto=format&fit=crop",
+    "region": "España",
+    "type": "Europa",
+    "meses": [
+      3,
+      4,
+      5,
+      8,
+      9
+    ],
+    "quizTags": [
+      "teens",
+      "abuelos",
+      "largo",
+      "especial",
+      "comodo"
+    ],
+    "coords": [
+      40.42,
+      -3.7
+    ]
+  },
+  {
+    "slug": "roma-y-florencia",
+    "name": "Roma y Florencia",
+    "epoca": "Abr–jun y sep–oct",
+    "edades": "Desde 7 años",
+    "dias": "8 a 10 noches",
+    "docs": "Pasaporte vigente; revisa requisitos de ingreso a la Unión Europea",
+    "tips": [
+      "Visitas guiadas para niños hacen la historia divertida.",
+      "Evita julio y agosto por el calor.",
+      "Un día de playa en la costa ayuda a recargar energía."
+    ],
+    "img": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=900&q=70&auto=format&fit=crop",
+    "region": "Italia",
+    "type": "Europa",
+    "meses": [
+      3,
+      4,
+      5,
+      8,
+      9
+    ],
+    "quizTags": [
+      "teens",
+      "abuelos",
+      "largo",
+      "especial"
+    ],
+    "coords": [
+      41.9,
+      12.5
+    ]
+  },
+  {
+    "slug": "costa-rica",
+    "name": "Costa Rica",
+    "epoca": "Dic–abr",
+    "edades": "Desde 5 años",
+    "dias": "7 a 9 noches",
+    "docs": "Pasaporte vigente; consulta requisitos de visa",
+    "tips": [
+      "Combina volcán, selva y playa en un solo viaje.",
+      "Contrata guías locales para ver animales.",
+      "Lleva repelente y ropa ligera de manga larga."
+    ],
+    "img": "https://images.unsplash.com/photo-1534008897995-27a23e859048?w=900&q=70&auto=format&fit=crop",
+    "region": "Centroamérica",
+    "type": "Naturaleza",
+    "meses": [
+      11,
+      0,
+      1,
+      2,
+      3
+    ],
+    "quizTags": [
+      "ninos",
+      "teens",
+      "medio",
+      "largo",
+      "comodo"
+    ],
+    "coords": [
+      9.93,
+      -84.08
+    ]
+  }
+]
