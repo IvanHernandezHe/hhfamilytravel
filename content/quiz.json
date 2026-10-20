@@ -1,0 +1,97 @@
+[
+  {
+    "q": "¿Quiénes viajan?",
+    "o": [
+      [
+        "Con bebés",
+        "Menores de 3 años",
+        "bebes"
+      ],
+      [
+        "Niños",
+        "De 3 a 12 años",
+        "ninos"
+      ],
+      [
+        "Adolescentes",
+        "De 13 a 17 años",
+        "teens"
+      ],
+      [
+        "Tres generaciones",
+        "Con abuelos",
+        "abuelos"
+      ]
+    ]
+  },
+  {
+    "q": "¿Qué disfrutan más?",
+    "o": [
+      [
+        "Parques y personajes",
+        "Montañas rusas, shows, magia",
+        "Parques"
+      ],
+      [
+        "Playa y alberca",
+        "Descansar sin prisa",
+        "Playa"
+      ],
+      [
+        "Varios lugares en un viaje",
+        "Islas y vida a bordo",
+        "Cruceros"
+      ],
+      [
+        "Historia y ciudades",
+        "Museos, comida, cultura",
+        "Europa"
+      ],
+      [
+        "Naturaleza y aventura",
+        "Animales, volcanes, glaciares",
+        "Naturaleza"
+      ]
+    ]
+  },
+  {
+    "q": "¿Cuántos días tienen?",
+    "o": [
+      [
+        "4 a 5 noches",
+        "Escapada",
+        "corto"
+      ],
+      [
+        "Una semana",
+        "6 a 8 noches",
+        "medio"
+      ],
+      [
+        "10 noches o más",
+        "Viaje largo",
+        "largo"
+      ]
+    ]
+  },
+  {
+    "q": "¿Qué presupuesto tienen en mente?",
+    "o": [
+      [
+        "Esencial",
+        "Cuidando cada peso",
+        "esencial"
+      ],
+      [
+        "Cómodo",
+        "Buen balance",
+        "comodo"
+      ],
+      [
+        "Especial",
+        "Un viaje de una vez en la vida",
+        "especial"
+      ]
+    ]
+  }
+]

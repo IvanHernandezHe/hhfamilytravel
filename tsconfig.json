@@ -37,6 +37,8 @@
   ],
   "exclude": [
     "node_modules",
-    "design_handoff_hhfamilytravel"
+    "design_handoff_hhfamilytravel",
+    "desing v4",
+    "design"
   ]
 }

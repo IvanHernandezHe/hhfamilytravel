@@ -1,0 +1,98 @@
+[
+  {
+    "id": "v1",
+    "tipo": "Parques",
+    "lugar": "Orlando, Florida",
+    "fecha": "Marzo 2026",
+    "familia": "Familia G.",
+    "viajeros": "2 adultos · 2 niños (4 y 7 años) · 7 noches",
+    "cita": "Cada día tenía un plan y siempre nos respondieron por WhatsApp. Los niños siguen hablando del castillo.",
+    "organizamos": [
+      "Magic Kingdom, EPCOT y Universal",
+      "Hotel con alberca a 10 min de los parques",
+      "Auto de alquiler con sillas para niños",
+      "Cena con personajes el último día"
+    ],
+    "fotos": []
+  },
+  {
+    "id": "v2",
+    "tipo": "Cruceros",
+    "lugar": "Crucero por el Caribe",
+    "fecha": "Diciembre 2025",
+    "familia": "Familia R.",
+    "viajeros": "7 personas · 3 generaciones · 6 noches",
+    "cita": "Primer crucero con los abuelos y salió perfecto. Camarotes juntos y excursiones para todos.",
+    "organizamos": [
+      "Salida desde Miami",
+      "Cozumel, Roatán y Costa Maya",
+      "Camarotes conectados",
+      "Excursión de snorkel para niños"
+    ],
+    "fotos": []
+  },
+  {
+    "id": "v3",
+    "tipo": "Playa",
+    "lugar": "Riviera Maya, México",
+    "fecha": "Agosto 2025",
+    "familia": "Familia M.",
+    "viajeros": "2 adultos · 1 bebé (10 meses) · 5 noches",
+    "cita": "Viajar con bebé nos daba miedo. Nos recomendaron el resort ideal y todo fue tranquilo.",
+    "organizamos": [
+      "Resort todo incluido con kids club",
+      "Cuna y kit de bebé en la habitación",
+      "Traslado privado con silla de bebé",
+      "Playa sin oleaje"
+    ],
+    "fotos": []
+  },
+  {
+    "id": "v4",
+    "tipo": "Europa",
+    "lugar": "Madrid y Barcelona",
+    "fecha": "Julio 2025",
+    "familia": "Familia L.",
+    "viajeros": "2 adultos · 2 adolescentes · 10 noches",
+    "cita": "Itinerario perfecto para adolescentes: cultura, fútbol y playa. Todo con boletos listos.",
+    "organizamos": [
+      "Tour del Bernabéu y Camp Nou",
+      "Tren rápido Madrid–Barcelona",
+      "Sagrada Familia con guía",
+      "Apartamento céntrico"
+    ],
+    "fotos": []
+  },
+  {
+    "id": "v5",
+    "tipo": "Naturaleza",
+    "lugar": "Costa Rica",
+    "fecha": "Abril 2025",
+    "familia": "Familia T.",
+    "viajeros": "2 adultos · 3 niños (6, 9 y 11) · 8 noches",
+    "cita": "Vimos perezosos, volcanes y playa en un solo viaje. Los guías fueron increíbles con los niños.",
+    "organizamos": [
+      "Volcán Arenal y aguas termales",
+      "Puentes colgantes en Monteverde",
+      "Playa en Manuel Antonio",
+      "Guía bilingüe privado"
+    ],
+    "fotos": []
+  },
+  {
+    "id": "v6",
+    "tipo": "Parques",
+    "lugar": "Disneyland California",
+    "fecha": "Noviembre 2025",
+    "familia": "Familia S.",
+    "viajeros": "2 adultos · 1 niña (5 años) · 5 noches",
+    "cita": "Nos organizaron el día del cumpleaños de nuestra hija en el parque. Inolvidable.",
+    "organizamos": [
+      "Disneyland y California Adventure",
+      "Hotel a pasos del parque",
+      "Sorpresa de cumpleaños",
+      "Día de playa en Newport"
+    ],
+    "fotos": []
+  }
+]

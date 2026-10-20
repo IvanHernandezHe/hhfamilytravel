@@ -1,0 +1,174 @@
+{
+  "hero": [
+    {
+      "word": "Disney",
+      "short": "Disney",
+      "tag": "Parques temáticos",
+      "title": "Walt Disney World y Disneyland",
+      "desc": "Orlando o California, con hotel cerca de los parques y días planeados para que nadie se canse.",
+      "facts": [
+        "6 a 9 noches",
+        "Ideal de 3 a 12 años",
+        "Boletos y traslados"
+      ],
+      "img": "https://images.pexels.com/photos/3428278/pexels-photo-3428278.jpeg?auto=compress&cs=tinysrgb&w=2000",
+      "tint": 1,
+      "thumb": "https://images.pexels.com/photos/3428278/pexels-photo-3428278.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "filtro": "Parques"
+    },
+    {
+      "word": "Playa",
+      "short": "Riviera Maya",
+      "tag": "Playa todo incluido",
+      "title": "Cancún y Riviera Maya",
+      "desc": "Resorts con club de niños, albercas y playa tranquila. Ustedes descansan, nosotros nos encargamos.",
+      "facts": [
+        "4 a 7 noches",
+        "Todas las edades",
+        "Todo incluido"
+      ],
+      "img": "https://images.unsplash.com/photo-1505881502353-a1986add3762?w=2000&q=75&auto=format&fit=crop",
+      "thumb": "https://images.unsplash.com/photo-1505881502353-a1986add3762?w=300&q=75&auto=format&fit=crop",
+      "filtro": "Playa"
+    },
+    {
+      "word": "Crucero",
+      "short": "Caribe",
+      "tag": "Cruceros",
+      "title": "Crucero por el Caribe",
+      "desc": "Varias islas en un solo viaje, sin cambiar de hotel. Camarotes familiares y actividades a bordo.",
+      "facts": [
+        "5 a 7 noches",
+        "Camarote familiar",
+        "Comidas a bordo"
+      ],
+      "img": "https://images.unsplash.com/photo-1599640842225-85d111c60e6b?w=2000&q=75&auto=format&fit=crop",
+      "thumb": "https://images.unsplash.com/photo-1599640842225-85d111c60e6b?w=300&q=75&auto=format&fit=crop",
+      "filtro": "Cruceros"
+    },
+    {
+      "word": "Europa",
+      "short": "Europa",
+      "tag": "Europa en familia",
+      "title": "París, España e Italia con niños",
+      "desc": "Ciudades a pie, trenes cómodos y hoteles céntricos. Itinerarios con ritmo de familia.",
+      "facts": [
+        "9 a 12 noches",
+        "Desde 6 años",
+        "Trenes y tours"
+      ],
+      "img": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=2000&q=75&auto=format&fit=crop",
+      "thumb": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=300&q=75&auto=format&fit=crop",
+      "filtro": "Europa"
+    },
+    {
+      "word": "Aventura",
+      "short": "Costa Rica",
+      "tag": "Naturaleza",
+      "title": "Costa Rica: selva y playa",
+      "desc": "Volcanes, puentes colgantes y animales en libertad, con guías que saben viajar con niños.",
+      "facts": [
+        "7 a 9 noches",
+        "Desde 5 años",
+        "Guías locales"
+      ],
+      "img": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=2000&q=75&auto=format&fit=crop",
+      "thumb": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=300&q=75&auto=format&fit=crop",
+      "filtro": "Naturaleza"
+    }
+  ],
+  "intereses": [
+    {
+      "t": "Disney y parques",
+      "d": "Orlando, California, Universal",
+      "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?w=700&q=75&auto=format&fit=crop",
+      "f": "Parques"
+    },
+    {
+      "t": "Playa y resorts",
+      "d": "Todo incluido con club de niños",
+      "img": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=700&q=75&auto=format&fit=crop",
+      "f": "Playa"
+    },
+    {
+      "t": "Cruceros",
+      "d": "Caribe, Alaska y Mediterráneo",
+      "img": "https://images.unsplash.com/photo-1599640842225-85d111c60e6b?w=700&q=75&auto=format&fit=crop",
+      "f": "Cruceros"
+    },
+    {
+      "t": "Ciudades y cultura",
+      "d": "Europa a ritmo de familia",
+      "img": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=700&q=75&auto=format&fit=crop",
+      "f": "Europa"
+    },
+    {
+      "t": "Naturaleza",
+      "d": "Selva, volcanes y animales",
+      "img": "https://images.unsplash.com/photo-1534008897995-27a23e859048?w=700&q=75&auto=format&fit=crop",
+      "f": "Naturaleza"
+    },
+    {
+      "t": "Montaña y frío",
+      "d": "Paisajes, glaciares y nieve",
+      "img": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=700&q=75&auto=format&fit=crop",
+      "f": "Naturaleza"
+    },
+    {
+      "t": "Islas del Caribe",
+      "d": "Punta Cana, Aruba, Bahamas",
+      "img": "https://images.unsplash.com/photo-1552074284-5e88ef1aef18?w=700&q=75&auto=format&fit=crop",
+      "f": "Playa"
+    }
+  ],
+  "perfiles": [
+    "Con bebés",
+    "Niños pequeños",
+    "Adolescentes",
+    "Con abuelos",
+    "Familia grande",
+    "Primer viaje al extranjero"
+  ],
+  "recomendados": [
+    {
+      "t": "Riviera Maya, México",
+      "d": "Resorts todo incluido con club de niños, playas tranquilas y excursiones a parques ecológicos. Ideal para familias con bebés.",
+      "img": "https://images.unsplash.com/photo-1510097467424-192d713fd8b2?w=2000&q=75&auto=format&fit=crop",
+      "thumb": "https://images.unsplash.com/photo-1540541338287-41700207dee6?w=500&q=75&auto=format&fit=crop"
+    },
+    {
+      "t": "Crucero por el Caribe",
+      "d": "Varias islas en un solo viaje, camarotes familiares y actividades a bordo para todas las edades.",
+      "img": "https://images.unsplash.com/photo-1548574505-5e239809ee19?w=2000&q=75&auto=format&fit=crop",
+      "thumb": "https://images.unsplash.com/photo-1599640842225-85d111c60e6b?w=500&q=75&auto=format&fit=crop"
+    },
+    {
+      "t": "Orlando, Florida",
+      "d": "Parques temáticos con un plan día por día para disfrutar sin agotarse, y hotel cerca de todo.",
+      "img": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?w=2000&q=75&auto=format&fit=crop",
+      "thumb": "https://images.unsplash.com/photo-1513889961551-628c1e5e2ee9?w=500&q=75&auto=format&fit=crop"
+    }
+  ],
+  "servicios": [
+    {
+      "t": "Vuelos",
+      "d": "Horarios cómodos y asientos juntos para toda la familia.",
+      "icon": "<svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z\"></path></svg>"
+    },
+    {
+      "t": "Hospedaje",
+      "d": "Hoteles y resorts con habitaciones familiares.",
+      "icon": "<svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2 20v-8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v8\"></path><path d=\"M4 10V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4\"></path><path d=\"M12 4v6\"></path><path d=\"M2 18h20\"></path></svg>"
+    },
+    {
+      "t": "Cruceros",
+      "d": "Camarotes familiares y excursiones para niños.",
+      "icon": "<svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1 .6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1\"></path><path d=\"M19.38 20A11.6 11.6 0 0 0 21 14l-9-4-9 4c0 2.9.94 5.34 2.81 7.76\"></path><path d=\"M19 13V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v6\"></path><path d=\"M12 10v4\"></path><path d=\"M12 2v3\"></path></svg>"
+    },
+    {
+      "t": "Boletos a parques",
+      "d": "Disney, Universal y más, con días planeados.",
+      "icon": "<svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z\"></path><path d=\"M13 5v2\"></path><path d=\"M13 17v2\"></path><path d=\"M13 11v2\"></path></svg>"
+    }
+  ]
+}

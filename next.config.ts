@@ -1,14 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Sitio estático para GitHub Pages: `npm run build` genera la carpeta out/.
-  output: "export",
-  // Cada ruta como carpeta/index.html (/destinos/ → destinos/index.html).
-  trailingSlash: true,
-  images: {
-    // GitHub Pages no tiene servidor para optimizar imágenes.
-    unoptimized: true,
-  },
+  // Se publica en Vercel: rutas API (/api/cotizacion, /api/viaje, /api/pago) con servidor.
+  poweredByHeader: false,
 };
 
 export default nextConfig;
